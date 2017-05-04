@@ -16,6 +16,7 @@ namespace WebJob1
         {
             log.WriteLine(message);
             Console.WriteLine(message);
+            //Added comments
         }
     }
 }
