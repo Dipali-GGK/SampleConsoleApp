@@ -15,6 +15,8 @@ namespace WebJob1
         public static void ProcessQueueMessage([QueueTrigger("HigiDemoServiceBusQueue")] string message, TextWriter log)
         {
             log.WriteLine(message);
+            Console.WriteLine(message);
+            //Added comments
         }
     }
 }
